@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style>
+      img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      .btn {
+        background-color: transparent;
+        border: 0px;
+        padding: 9px;
+        padding-top: 0px;
+      }
+      .responsive {
+        width: 100%;
+        height: auto;
+      }
+    </style>
+  </head>
+  <body style="background-color:#F2515C">
+    <img
+      class="responsive"
+      id="myImage"
+      src="https://cdn.glitch.com/dcf3618d-56d4-46c0-abcb-1da5dcfffcb7%2Fdownload%20(2).png?v=1618987743722"
+    />
+    <script>
+      var el_up = document.getElementById("GFG_UP");
+      var el_down = document.getElementById("GFG_DOWN");
+      var str = "Click on button to change the background color";
+
+      el_up.innerHTML = str;
+
+      function changeColor(color) {
+        document.body.style.background = color;
+      }
+
+      function Run_Red() {
+        changeColor("#F2515C");
+        document.getElementById("myImage").src =
+          "https://cdn.glitch.com/dcf3618d-56d4-46c0-abcb-1da5dcfffcb7%2Fdownload%20(2).png?v=1618987743722";
+        el_down.innerHTML = "Background Color changed";
+      }
+    </script>
+    <script>
+      var el_up = document.getElementById("GFG_UP");
+      var el_down = document.getElementById("GFG_DOWN");
+      var str = "Click on button to change the background color";
+
+      el_up.innerHTML = str;
+
+      function changeColor(color) {
+        document.body.style.background = color;
+      }
+
+      function Run_Purple() {
+        changeColor("#8C52FF");
+        document.getElementById("myImage").src =
+          "https://cdn.glitch.com/dcf3618d-56d4-46c0-abcb-1da5dcfffcb7%2Fvivpagepurple.png?v=1619017832872";
+        el_down.innerHTML = "Background Color changed";
+      }
+    </script>
+    <script>
+      var el_up = document.getElementById("GFG_UP");
+      var el_down = document.getElementById("GFG_DOWN");
+      var str = "Click on button to change the background color";
+
+      el_up.innerHTML = str;
+
+      function changeColor(color) {
+        document.body.style.background = color;
+      }
+
+      function Run_Orange() {
+        changeColor("#FF914D");
+        document.getElementById("myImage").src =
+          "https://cdn.glitch.com/dcf3618d-56d4-46c0-abcb-1da5dcfffcb7%2Fvivpageorange.png?v=1619022087470";
+        el_down.innerHTML = "Background Color changed";
+      }
+    </script>
+    <script>
+      var el_up = document.getElementById("GFG_UP");
+      var el_down = document.getElementById("GFG_DOWN");
+      var str = "Click on button to change the background color";
+
+      el_up.innerHTML = str;
+
+      function changeColor(color) {
+        document.body.style.background = color;
+      }
+
+      function Run_Blue() {
+        changeColor("#6CE5E8");
+        document.getElementById("myImage").src =
+          "https://cdn.glitch.com/dcf3618d-56d4-46c0-abcb-1da5dcfffcb7%2Fvivpageblue.png?v=1619022065102";
+        el_down.innerHTML = "Background Color changed";
+      }
+    </script>
+    <script>
+      var el_up = document.getElementById("GFG_UP");
+      var el_down = document.getElementById("GFG_DOWN");
+      var str = "Click on button to change the background color";
+
+      el_up.innerHTML = str;
+
+      function changeColor(color) {
+        document.body.style.background = color;
+      }
+
+      function Run_Grey() {
+        changeColor("#494F56");
+        document.getElementById("myImage").src =
+          "https://cdn.glitch.com/dcf3618d-56d4-46c0-abcb-1da5dcfffcb7%2Fvivpageblack.png?v=1619022177148";
+        el_down.innerHTML = "Background Color changed";
+      }
+    </script>
+    <center>
+      <button class="btn" onclick="Run_Red();">
+        <img
+          src="https://cdn.glitch.com/dcf3618d-56d4-46c0-abcb-1da5dcfffcb7%2Fvivbuttonred.png?v=1619012351894"
+          width="150"
+          height="120"
+        />
+      </button>
+
+      <button class="btn" onclick="Run_Purple()">
+        <img
+          src="https://cdn.glitch.com/dcf3618d-56d4-46c0-abcb-1da5dcfffcb7%2Fvivbuttonpurple.png?v=1619012933550"
+          width="150"
+          height="120"
+        />
+      </button>
+
+      <button class="btn" onclick="Run_Orange()">
+        <img
+          src="https://cdn.glitch.com/dcf3618d-56d4-46c0-abcb-1da5dcfffcb7%2Fvivbuttonorange.png?v=1619012935390"
+          width="150"
+          height="120"
+        />
+      </button>
+
+      <button class="btn" onclick="Run_Blue()">
+        <img
+          src="https://cdn.glitch.com/dcf3618d-56d4-46c0-abcb-1da5dcfffcb7%2Fvivbuttonblue.png?v=1619012938780"
+          width="150"
+          height="120"
+        />
+      </button>
+
+      <button class="btn" onclick="Run_Grey()">
+        <img
+          src="https://cdn.glitch.com/dcf3618d-56d4-46c0-abcb-1da5dcfffcb7%2Fvivbuttonblack.png?v=1619012941575"
+          width="150"
+          height="120"
+        />
+      </button>
+    </center>
+  </body>
+</html>
